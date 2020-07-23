@@ -1,9 +1,9 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import testImage from './test.png';
-import './style.css';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import testImage from "./test.png";
+import "./style.css";
 
-document.title = 'App';
+document.title = "App";
 
 export function App() {
   return (
@@ -14,6 +14,5 @@ export function App() {
   );
 }
 
-const root = document.getElementById('root') || document.createElement('div');
+const root = document.getElementById("root") || document.createElement("div");
 ReactDOM.render(<App />, root);
-
