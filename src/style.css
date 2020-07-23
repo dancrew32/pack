@@ -6,6 +6,8 @@ body {
 
 body {
   font-family: monospace;
+  background-color: #fafafa;
+  color: #444;
 }
 
 .container {
@@ -16,4 +18,9 @@ body {
 .container-img {
   display: block;
   width: 100%;
+}
+
+nav a {
+  padding: 10px;
+  display: inline-block;
 }

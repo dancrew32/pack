@@ -7,6 +7,20 @@ exports[`<App /> 1`] = `
   <h1>
     Hello, world!
   </h1>
+  <nav>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="/about"
+      onClick={[Function]}
+    >
+      About
+    </a>
+  </nav>
   <img
     className="container-img"
     src="test-file-stub"

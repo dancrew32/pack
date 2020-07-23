@@ -1,3 +1,3 @@
 checkin:
 	yarn prod && yarn tidy && yarn test && \
-		git add -Ap && git commit && git push origin master
+		git add -A && git commit && git push origin master
